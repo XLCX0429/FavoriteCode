@@ -1,5 +1,4 @@
 public class FirstClass {
-
     public boolean isTrue(boolean b) {
         if (b) {
             return true;
@@ -8,8 +7,9 @@ public class FirstClass {
         }
     }
 
-
     public static void main(String[] args) {
-
+        FirstClass fc = new FirstClass();
+        System.out.println(fc.isTrue(true));
+        System.out.println(fc.isTrue(false));
     }
 }
